@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+.container {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.top-right{
+    float: right;
+    padding-left: 20px;
+}
+.top-right a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+.top-right a:hover{
+    color: #75716D;
+    text-decoration: underline;
+}
+.top-right img {
+    color: #75716D;
+    height: 25px;
+    padding-top: 20px;
+}
+.top-right .connexion{
+    background-color: #4583EC;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 3px;
+}
