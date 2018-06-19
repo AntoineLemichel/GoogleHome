@@ -58,6 +58,9 @@ body {
     border: none;
     margin-bottom: 5%;
 }
+.research:hover{
+    box-shadow: 2px 2px 2px 2px #E5E5E5;
+}
 .middle-button {
     padding-left: 15%;
 }
