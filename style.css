@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+}
+/* Top-right information, "Gmail", "Apps", and "Connexion button" */
+.container {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.top-right{
+    float: right;
+    padding-left: 20px;
+    font-size: 0.8rem;
+}
+.top-right a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+.top-right a:hover{
+    color: #75716D;
+    text-decoration: underline;
+}
+.top-right img {
+    color: #75716D;
+    height: 25px;
+    padding-top: 20px;
+}
+.top-right .connexion{
+    background-color: #4583EC;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+/* This end to top-right css */
+/* It's middle css picture google, search bar and two button "Google's research" and "I have lucky" */
+
+.middle {
+    margin: 0 auto;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+.middle img {
+    width: 40%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+.research{
+    width: 550px;
+    height: 30px;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 1px 1px #E5E5E5;
+    border: none;
+    margin-bottom: 5%;
+}
+.middle-button {
+    padding-left: 15%;
+}
+.research-button{
+    background-color: #F1F1F1;
+    border: none;
+    color: #757575;
+    font-size: 0.9rem;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.ImLucky {
+    background-color: #F1F1F1;
+    border: none;
+    color: #757575;
+    font-size: 0.9rem;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+hr{    
+    color: #F1F1F1;
+    height: 0.1px;
+}
+/* This end for middle CSS "Picture", "search bar" and button */
+.footer {
+    margin-top: 18%;
+    border: #EBEBEB;
+    background-color: #F2F2F2;
+    border: 1px solid #F1F1F1;
+    clear: both;
+    font-size: 0.9rem;
+    margin-left: -15px;
+    width: 102%;
+}
+.footer a {
+    text-decoration: none;
+    color: #666666;
+    margin-right: 5px;
+    margin-left: 20px; 
+}
+.span-left{
+    padding-right: 45%;
+}
+.country{
+    color: #666666;
+    margin-left: 20px;
+}
